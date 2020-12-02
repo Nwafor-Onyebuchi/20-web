@@ -1,0 +1,31 @@
+#nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #555555;
+  height: 70px;
+  padding: 40 0;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+li {
+  margin-right: 10px;
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btn {
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.change {
+  background-color: "green";
+}
